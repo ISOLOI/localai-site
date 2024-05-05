@@ -1,7 +1,7 @@
 {
-  "name": "fernfolio-11ty-template",
+  "name": "localai-site",
   "version": "1.0.0",
-  "description": "The super simple portfolio template built with Eleventy and Netlify CMS",
+  "description": "documenting the path of using AI with JavaScript",
   "scripts": {
     "start": "cross-env npm-run-all build:sass --parallel watch:*",
     "build": "cross-env npm-run-all build:sass build:scripts build:eleventy",
@@ -16,18 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template"
+    "url": "https://github.com/isoloi/localai-site.git"
   },
   "author": {
-    "name": "Tyler M. Roderick",
-    "email": "troderick@protonmail.com",
-    "url": "https://www.tylerroderick.com/"
+    "name": "ISOLOI",
+    "url": "https://mybarehands.com/"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tylerMRoderick/fernfolio-11ty-template/issues"
-  },
-  "homepage": "https://github.com/tylerMRoderick/fernfolio-11ty-template",
+  "homepage": "https://github.com/isoloi/localai-site.git",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^2.0.1",

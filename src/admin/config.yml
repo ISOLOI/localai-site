@@ -35,7 +35,7 @@ collections:
               name: "default_theme",
               widget: "select",
               options: ["light", "dark"],
-              default: "light",
+              default: "dark",
               required: true
             }
           - { label: "Logo (.svg)", name: "logo", widget: "image", required: true }
