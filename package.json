@@ -14,15 +14,10 @@
     "postbuild": "postcss _site/assets/css/*.css -u autoprefixer cssnano -r --no-map",
     "clean": "rimraf './_site'"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/isoloi/localai-site.git"
-  },
   "author": {
     "name": "ISOLOI",
     "url": "https://mybarehands.com/"
   },
-  "license": "MIT",
   "homepage": "https://github.com/isoloi/localai-site.git",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
