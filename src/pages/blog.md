@@ -1,14 +1,28 @@
 ---
 layout: blog.njk
 title: Articles
+metaDescription: ""
 date: 2017-01-01
-pagination:
-  data: collections.post
-  size: 20
-permalink: "blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html"
-metaDescription: A sample Blog page listing various posts.
+permalink: blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber
+  }}{% endif %}/index.html
 subtitle: A collection of technical blog posts and random thoughts
 eleventyNavigation:
   key: Blog
   order: 2
+pagination:
+  data: collections.post
+  size: 20
 ---
+<!--StartFragment-->
+
+Modern Recruit is the start of a another opinionated rant due to my A.D.D. , alonh side a service I'm building to discuss the most underrated skill needed to work in the software industry: INTERVIEWING.\
+\
+Having experienced this unique career due to its constant evolving requirements over the years, my patience recently ran out. I can't name another career that can require a degree to even be considered for a job, yet the overwhelming amount of discussions still show the majority of colleges don't even teach the students relevant material in exchange for the 5-6 figure debt acquired before applying for their first job.\
+\
+This group is formed so I can ask you, the reader, this one question before deciding to follow my rants... "Why would someone who earned a CS degree still believe they lack the skill needed to interview for companies hiring for the fucking skill they just gained"? Ok, I'll add this last question just in case you don't see the picture clear.... "How are obsolete temp-agencies that used to not require any college or training to find uneducated kids push buttons at machine shops NOW GATE-KEEPERS?"\
+\
+If you don't believe me... Next time you are interviewing for a new job, ask the initial screener if they even are hired through the company that actually is hiring engineers. If you find yourself speaking with a "recruiter" find the courage to ask what qualifications give them power to help decide IF you have enough experience to continue the interview process. Ask how much the single phone call with you will cost. (Do you think the company pays them??!?! Or do you think they only make money off of the salary you agree to in the phone call.... Hmmm. )\
+\
+I hope I'm wrong, but I'll guess the answers are that you were having a conversation with someone who doesn't even have coding experience, or even a college education. Holy shit. And if you were brave enough to ask how they get paid.... It's based on forcing you to agree to a lower salary because the difference between what the company actually will pay you is collected by that fucker claiming he's trained to locate engineers without ever performing the fucking job ever before in their life.
+
+<!--EndFragment-->
