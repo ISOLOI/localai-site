@@ -1,9 +1,9 @@
 {
-  "logo": "src/assets/img/coding.svg",
+  "logo": "/src/assets/img/blackandwhitenick.jpg",
   "menu_icon": "src/assets/img/icon-hamburger.svg",
   "close_icon": "src/assets/img/icon-close.svg",
   "enable_theme_switch": true,
-  "switch_theme_icon": "src/assets/img/icon-sun.svg",
+  "switch_theme_icon": "/src/assets/img/icon.svg",
   "default_theme": "dark",
   "use_system_theme": false
 }
